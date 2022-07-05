@@ -1,5 +1,6 @@
 import React from 'react';
-import {
+import { BrowserRouter as
+  Router,
   Routes,
   Route,
 } from 'react-router-dom';
@@ -8,12 +9,12 @@ import Search from './components/Search';
 
 function App() {
   return (
-    <div>
+    <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/search" element={<Search />} />
       </Routes>
-    </div>
+    </Router>
   );
 }
 
