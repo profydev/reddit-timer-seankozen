@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Montserrat';
+  }
+
+  body {
+    margin: 0;
+    background-color: #FFF;
+  }
+
+  title {
+    font-family: 'Bitter';
+  }

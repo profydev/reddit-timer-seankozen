@@ -1,10 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './components/LandingPage';
+import Search from './components/Search';
 
 function App() {
   return (
-    <div>
-      App Placeholder
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />} />
+        <Route path="/search" element={<Search />} />
+      </Routes>
+    </Router>
   );
 }
 
